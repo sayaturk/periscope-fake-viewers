@@ -31,8 +31,8 @@ class PeriscopeBot:
     def _getApiMethod(self, method):
         return self._apiUrl + '/' + method
 
-broadcastId = raw_input('Broadcast ID: ')
-botsCount = raw_input('Number of bots: ')
+broadcastId = raw_input('gkcnustn: ')
+botsCount = raw_input('600: ')
 while (botsCount > 0):
     pBot = PeriscopeBot(broadcastId)
     pBot.start()
